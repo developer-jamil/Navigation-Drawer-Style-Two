@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    tools:showIn="navigation_view">
+
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/homeMenuId"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:menuCategory="secondary"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/howtoMenuId"
+            android:icon="@drawable/ic_baseline_question_mark_24"
+            android:menuCategory="secondary"
+            android:title="@string/how_to_use" />
+        <item
+            android:id="@+id/lawsMenuId"
+            android:icon="@drawable/ic_baseline_list_alt_24"
+            android:menuCategory="secondary"
+            android:title="@string/laws_bn_text" />
+        <item
+            android:id="@+id/aboutUsMenuId"
+            android:icon="@drawable/ic_baseline_supervised_user_circle_24"
+            android:menuCategory="secondary"
+            android:title="@string/about_us" />
+        <item
+            android:id="@+id/settingsMenuId"
+            android:icon="@drawable/ic_baseline_settings_24"
+            android:menuCategory="secondary"
+            android:title="@string/setting" />
+
+
+        <item
+            android:menuCategory="secondary"
+            android:title="@string/more">
+            <menu>
+                <item
+                    android:id="@+id/fbMenuId"
+                    android:icon="@drawable/facebook"
+                    android:title="@string/facebook_page" />
+                <item
+                    android:id="@+id/moreMenuId"
+                    android:icon="@drawable/ic_baseline_more_24"
+                    android:title="@string/more_apps" />
+                <item
+                    android:id="@+id/shareMenuId"
+                    android:icon="@drawable/ic_baseline_share_24"
+                    android:title="@string/share" />
+                <item
+                    android:id="@+id/privacyMenuId"
+                    android:icon="@drawable/ic_baseline_privacy_tip_24"
+                    android:title="@string/privacy_policy" />
+                <item
+                    android:id="@+id/rateUsMenuId"
+                    android:icon="@drawable/ic_baseline_reviews_24"
+                    android:title="@string/rating" />
+                <item
+                    android:id="@+id/exitMenuId"
+                    android:icon="@drawable/ic_baseline_exit_to_app_24"
+                    android:title="@string/exit" />
+            </menu>
+        </item>
+
+    </group>
+
+</menu>

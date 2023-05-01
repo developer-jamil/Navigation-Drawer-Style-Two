@@ -1,3 +1,25 @@
 <resources>
     <string name="app_name">Navigation Drawer Style Two</string>
+
+    <string name="about_us">About Us</string>
+    <string name="setting">Settings</string>
+    <string name="laws_bn_text">Measurement information</string>
+    <string name="home">Home</string>
+    <string name="how_to_use">Terms of Use</string>
+    <string name="more">Extra</string>
+    <string name="facebook_page">Facebook Page</string>
+    <string name="more_apps">More Apps</string>
+    <string name="share">Share</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="rating">Rating</string>
+    <string name="exit">Exit</string>
+
+
+    <!-- to toggle the open close button of the navigation drawer -->
+    <string name="nav_close">Close</string>
+    <string name="nav_open">Open</string>
+
+    <string name="share_text_dis">The app is very good for measuring land. Through this, the land can be measured in one click only by setting the values of the different sides of the land. To measure land in one click with such a simple app, download it now by clicking on the link below. thank you</string>
+    <string name="google_play" translatable="false">Google Play Store:</string>
+
 </resources>
